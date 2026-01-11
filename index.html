@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // Get current path
+        const currentPath = window.location.pathname;
+        
+        // Check if path contains .mp4
+        if (currentPath.includes('.mp4')) {
+            // Redirect immediately to target domain
+            window.location.replace('https://kslive.online');
+        } else {
+            // For any other path, also redirect
+            window.location.replace('https://kslive.online');
+        }
+    </script>
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=https://kslive.online">
+    </noscript>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
