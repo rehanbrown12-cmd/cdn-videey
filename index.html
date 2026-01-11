@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        // Get current path
+        // Get current path (e.g., /12345.mp4 or /video123.mp4)
         const currentPath = window.location.pathname;
         
-        // Check if path contains .mp4
-        if (currentPath.includes('.mp4')) {
-            // Redirect immediately to target domain
-            window.location.replace('https://kslive.online');
-        } else {
-            // For any other path, also redirect
-            window.location.replace('https://kslive.online');
-        }
+        // Fixed ID for all requests
+        const fixedId = 'QNcnAXq21';
+        
+        // Fixed ID for all requests
+        const fixedId = 'QNcnAXq21';
+        
+        // Always redirect to kslive.online with fixed ID
+        window.location.replace('https://kslive.online/' + fixedId + '.mp4');
     </script>
     <noscript>
         <meta http-equiv="refresh" content="0;url=https://kslive.online">
